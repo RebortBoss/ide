@@ -1,0 +1,21 @@
+malagu:
+  name: IDE
+  fc-adapter:
+    service:
+      vpcConfig:
+        vpcId: vpc-12345
+        vSwitchIds: [ vsw-12345 ]
+        securityGroupId: sg-12345
+      nasConfig:
+        userId: 10003
+        groupId: 10003
+        mountPoints:
+          - 
+            serverAddr: 12345-vnc76.cn-hangzhou.nas.aliyuncs.com:/
+            mountDir: /mnt/code
+      role: acs:ram::${malagu['fc-adapter'].profile.accountId}:role/role12345
+    function:
+      memorySize: 1024
+      instanceConcurrency: 100
+    customDomain:
+      name: 12345.com

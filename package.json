@@ -1,0 +1,25 @@
+{
+  "name": "ide",
+  "keywords": [
+    "malagu-component"
+  ],
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@malagu/fc-adapter": "latest"
+
+  },
+  "devDependencies": {
+    "@malagu/cli": "latest"
+  },
+  "scripts": {
+    "deploy": "malagu deploy -s -m test",
+    "deploy:test": "malagu deploy -s -m test",
+    "deploy:pre": "malagu deploy -s -m pre",
+    "deploy:release": "malagu deploy -s -m release"
+  }
+}
