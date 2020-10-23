@@ -6,7 +6,7 @@ Cellbang IDE 是 [Malagu](https://github.com/cellbang/malagu) + [Theia](https://
 
 在线演示网址：[http://ide.cellbang.com](http://ide.cellbang.com)。只有 `/tmp` 目录下可写，其他目录都是只读。
 
-![ide.jpg](https://i.loli.net/2020/10/15/hm9lQHTwp3dLyJR.jpg)
+![ide.jpg](https://i.loli.net/2020/10/23/F7LzKlMfaob5Gj4.jpg)
 
 ## 原理
 
@@ -79,4 +79,4 @@ yarn run deploy   # 部署项目到函数计算，如果你是第一次使用，
 
 目前的一个典型的使用场景是可视化上传、下载和编辑 NAS 里面的文件。虽然函数计算对请求的大小有 6 MB 限制，但是本项目采用文件分片上传策略解决了该问题。
 
-![nas 演示.gif](https://i.loli.net/2020/10/15/AhUsFuBecJEyWIX.gif)
+![IDE 演示.gif](https://i.loli.net/2020/10/23/9xEkpyvBOwXHUnq.gif)
