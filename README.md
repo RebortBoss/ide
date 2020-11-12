@@ -4,7 +4,7 @@ Cellbang IDE 是 [Malagu](https://github.com/cellbang/malagu) + [Theia](https://
 
 ## 效果
 
-在线演示网址：[http://ide.cellbang.com](http://ide.cellbang.com)。只有 `/tmp` 目录下可写，其他目录都是只读。
+在线演示网址：[https://ide.cellbang.com#/tmp](http://ide.cellbang.com)。只有 `/tmp` 目录下可写，其他目录都是只读。
 
 ![ide.jpg](https://i.loli.net/2020/10/23/F7LzKlMfaob5Gj4.jpg)
 
